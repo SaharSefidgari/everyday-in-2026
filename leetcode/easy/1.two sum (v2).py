@@ -1,3 +1,5 @@
+#this one has better runtime
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         diff=[target-x for x in nums]
